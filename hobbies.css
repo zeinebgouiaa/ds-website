@@ -1,0 +1,138 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9fc;
+    color: #333;
+    line-height: 1.6;
+     
+    background-image:url("bs.webp");
+    background-position: fixed;
+    background-size: cover;
+    position: relative;
+}
+
+/* Header styling */
+header {
+    background-color:transparent;
+    position: relative;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    
+    top: 0;
+    z-index: 10;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+nav {
+    background-color:#1d3557;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    border-radius: 12px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin: 0 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+nav a:hover,
+nav a.active {
+    background-color: #abc5e1;
+}
+
+
+
+
+
+
+/* General hobby section styles */
+.hobby-section {
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: white;
+    /* Set background color to white */
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    /* Add subtle shadow */
+  }
+  
+  .hobby-section h2 {
+    
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  .hobby-section p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+    color: #555;
+    text-align: center;
+  }
+  
+  /* Styling for the images to be side by side */
+  .hobby-images {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+    /* Allow images to wrap on smaller screens */
+  }
+  
+  .hobby-image {
+    width: 48%;
+    /* Makes images take up nearly half of the width */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* Add shadow */
+    transition: transform 0.3s ease;
+    /* Smooth zoom effect */
+  }
+  
+  .hobby-image:hover {
+    transform: scale(1.05);
+    /* Zoom effect on hover */
+  }
+  
+  /* Optional responsiveness for smaller screens */
+  @media (max-width: 768px) {
+    .hobby-image {
+        width: 100%;
+        /* Stacks images on smaller screens */
+    }
+  }
+  
+
+  /* Footer Styles */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color:transparent;
+    color: #fff;
+    margin-top: 30px;
+}
+
+footer p {
+    font-size: 1rem;
+}

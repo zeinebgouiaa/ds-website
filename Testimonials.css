@@ -1,0 +1,126 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9fc;
+    color: #333;
+    line-height: 1.6;
+    padding: 0 20px;
+     
+    background-image:url("bs.webp");
+    background-position:unset;
+    background-size: cover;
+    position:unset;
+}
+
+/* Header Styles */
+.testimonials-header {
+    background-color: transparent;
+    position: relative;
+    color: #fff;
+    padding: 0.5rem;
+    text-align: center;
+    
+    top: 0;
+    z-index: 10;
+}
+
+.testimonials-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+.testimonials-nav {
+    background-color:#1d3557;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    border-radius: 12px;
+}
+
+.testimonials-nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 15px;
+  margin: 0 10px;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+.testimonials-nav a:hover {
+    background-color: #007BFF;
+}
+
+.testimonials-nav .active {
+    background-color: #007BFF;
+    text-decoration: underline;
+}
+
+/* Main Content */
+.testimonials-container {
+    max-width: 800px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.testimonials-container h2 {
+    font-size: 2rem;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+/* Testimonials Section */
+.testimonials {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.testimonial {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: left;
+}
+
+.testimonial:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.testimonial p {
+    font-size: 1rem;
+    color: #333;
+}
+
+.testimonial .author {
+    font-style: italic;
+    font-size: 0.9rem;
+    margin-top: 10px;
+    color: #555;
+}
+
+/* Footer Styles */
+.testimonials-footer {
+    text-align: center;
+    padding: 1rem;
+    background-color:transparent;
+    color: #fff;
+    margin-top: 30px;
+}
+
+.testimonials-footer p {
+    font-size: 1rem;
+}
+

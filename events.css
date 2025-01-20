@@ -1,0 +1,136 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Styles */
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9fc;
+    color: #333;
+    line-height: 1.6;
+    padding: 0 20px;
+     
+    background-image:url("bs.webp");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  }
+  
+  /* Header Styles */
+  .events-header {
+    background-color: transparent;
+    position: relative;
+    color: #fff;
+    padding: 0.5rem;
+    text-align: center;
+    
+    top: 0;
+    z-index: 10;
+  }
+  
+  .events-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .events-nav {
+    background-color:#1d3557;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    border-radius: 12px;
+  }
+  
+  .events-nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin: 0 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+  }
+  
+  .events-nav a:hover {
+    background-color: #007BFF;
+  }
+  
+  .events-nav .active {
+    background-color: #007BFF;
+    text-decoration: underline;
+  }
+  
+  /* Main Content */
+  .events-container {
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  .events-container h2 {
+    font-size: 2rem;
+    color: #ffffff;
+    margin-bottom: 20px;
+  }
+  
+  .events-section {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .events-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Event Card Styles */
+  .event-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .event-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .event-card i {
+    font-size: 2.5rem;
+    color: #8338ec;
+    margin-bottom: 10px;
+  }
+  
+  .event-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .event-card p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  /* Footer Styles */
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background-color:transparent;
+    color: #fff;
+    margin-top: 30px;
+}
+
+footer p {
+    font-size: 1rem;
+}
+  
