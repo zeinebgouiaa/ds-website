@@ -28,13 +28,7 @@ const answers = {
     resultDiv.style.color = score > totalQuestions / 2 ? "green" : "red";
   }
   
-  function showMenu() {
-    document.getElementById("navLinks").classList.add("active");
-  }
   
-  function hideMenu() {
-    document.getElementById("navLinks").classList.remove("active");
-  }
   
 
  
